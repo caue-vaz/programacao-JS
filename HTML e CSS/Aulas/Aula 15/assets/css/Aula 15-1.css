@@ -1,0 +1,6 @@
+.pai .lista li {
+    background-color: red;
+}
+input:required {
+    background-color: red;
+}

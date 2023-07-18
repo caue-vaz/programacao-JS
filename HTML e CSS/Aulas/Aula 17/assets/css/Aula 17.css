@@ -1,0 +1,12 @@
+p:nth-child(odd) {
+    background-color: purple;
+}
+p:nth-child(even) {
+    background-color: darkturquoise;
+}
+p:nth-child(3n) {
+    background-color: yellow;
+}
+p:nth-child(2n+5) {
+    background-color: rgba(70, 63, 63, 0.418);
+}

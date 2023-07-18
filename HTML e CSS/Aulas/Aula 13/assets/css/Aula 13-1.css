@@ -1,0 +1,19 @@
+*{ 
+   font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.pai .um+.dois{
+    color: red;
+}
+[meu-atributo="valor"] {
+    color: yellow;
+}
+
+[meu-atributo="valor"] {
+        color: yellow;
+}
+[checked] {
+   width: 25px;
+   height: 25px; 
+}

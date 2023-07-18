@@ -1,0 +1,38 @@
+:root {
+    --primary-color: rgb(13, 106, 134);
+    --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+   'Open Sans', 'Helvetica Neue', sans-serif;
+    outline: 0;
+}
+body {
+    background: var(--primary-color);
+    font-size: 1.3em;
+    line-height: 1.28em;
+}
+.body-web {
+    height: auto;
+    width: 80vw;
+    margin: 10px auto;
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+.relogio{
+    font-size: 3em ;
+    margin: 40px 0;
+}
+div button {
+    font-size: 18px;
+    padding: 2px 5px;
+    margin: 0 10px 0 0;
+}
+.pausado{
+    color: red;
+}

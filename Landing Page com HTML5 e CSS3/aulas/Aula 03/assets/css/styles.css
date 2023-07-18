@@ -1,0 +1,26 @@
+.intro-content {
+    position: relative;
+    top: -3rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--gap);
+    height: 100vh;
+    z-index: 1;
+  }
+  
+  .intro-text-content, .intro-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+  
+  .intro-text-content h2 {
+    font-size: 5.5rem;
+    margin-bottom: -0.5rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+  .intro-img img,.intro-img svg {
+    max-width: 100%;
+    height: auto;
+  }
